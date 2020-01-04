@@ -11,3 +11,7 @@ description    = This file modifies the current kernel network and physical stac
 [validation]
 type          = module
 name          = KernelStack
+
+[download]
+checksum      = https://github.com/mksipe/swish-modules/checksum/kernel.asc
+runfile       = https://github.com/mksipe/swish-modules/run/kernel.py
