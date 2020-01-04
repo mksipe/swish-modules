@@ -1,0 +1,12 @@
+[execution]
+scriptlocation = config/modules/run/packages.py
+shell          = python3
+
+[support]
+author         = <->
+type           = Python_3
+description    = This file is to make installations with the system to ensure that the base packages are istalled to ensure the best efficiency possible to use the script.
+
+[validation]
+type          = module
+name          = PackageInstallation
