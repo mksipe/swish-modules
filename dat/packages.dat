@@ -10,3 +10,7 @@ description    = This file is to make installations with the system to ensure th
 [validation]
 type          = module
 name          = PackageInstallation
+
+[download]
+checksum      = https://github.com/mksipe/swish-modules/checksum/packages.asc
+runfile       = https://github.com/mksipe/swish-modules/checksum/packages.py
