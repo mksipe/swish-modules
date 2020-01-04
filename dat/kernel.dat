@@ -1,0 +1,13 @@
+[execution]
+scriptlocation = config/modules/run/kernel.py
+shell          = python3
+
+[support]
+author         = <->
+type           = Python_3
+description    = This file modifies the current kernel network and physical stack to prevent DOS and Spoofing. As well as packet logging and physical security toward the system.
+
+
+[validation]
+type          = module
+name          = KernelStack
