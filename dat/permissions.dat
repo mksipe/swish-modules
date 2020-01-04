@@ -1,0 +1,12 @@
+[execution]
+scriptlocation = config/modules/run/Permission.py
+shell          = python3
+
+[support]
+author         = <->
+type           = Python_3
+description    = This file ensures that critical files on the system have the correct file perissions so that user enumeration and other kinds of attacks will be prevented.
+
+[validation]
+type          = module
+name          = SystemFilePerms
