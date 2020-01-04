@@ -10,3 +10,7 @@ description    = This file ensures that critical files on the system have the co
 [validation]
 type          = module
 name          = SystemFilePerms
+
+[download]
+checksum      = https://github.com/mksipe/swish-modules/checksum/permissions.asc
+runfile       = https://github.com/mksipe/swish-modules/run/permissions.py
