@@ -13,5 +13,4 @@ type          = module
 name          = KernelStack
 
 [download]
-checksum      = https://github.com/mksipe/swish-modules/trunk/checksum/kernel.asc
 runfile       = https://github.com/mksipe/swish-modules/trunk/run/kernel.py
